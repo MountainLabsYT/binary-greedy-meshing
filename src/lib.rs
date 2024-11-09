@@ -221,7 +221,7 @@ fn get_axis_index(axis: usize, a: usize, b: usize, c: usize) -> usize {
 
 #[inline]
 fn get_quad(x: usize, y: usize, z: usize, w: usize, h: usize, v_type: usize) -> u64 {
-    ((v_type << 32) | (h << 24) | (w << 18) | (z << 12) | (y << 6) | x) as u64
+    ((v_type << 30) | (h << 24) | (w << 18) | (z << 12) | (y << 6) | x) as u64
 }
 
 
