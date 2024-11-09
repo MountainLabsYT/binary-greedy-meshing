@@ -1,6 +1,6 @@
 # binary-greedy-meshing
 Originally a port of [Binary Greedy Meshing v2](https://github.com/cgerikj/binary-greedy-meshing) to Rust, with additional improvements such as support for transparent blocks.
-
+Why is this a fork? because I wanted the voxel_type param to be 16bits instead of 5 bits. that way I can have more block types.
 ## How to use
 This crate is used in the Bevy voxel game [Riverbed](https://github.com/Inspirateur/riverbed), you can check out the code for usage examples.
 
